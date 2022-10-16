@@ -13,18 +13,18 @@ int main(void)
 {
 	int n;
 
-	char str1 = "Last digit of";
+	char str1[] = "Last digit of";
 
-	char str2 = " is ";
+	char str2[] = " is ";
 
-	char str3 = " and is greater than";
+	char str3[] = " and is greater than";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	if (n % 10 > 5)
 	{
-		printf("%s%d%s%d%s\n", str1, n,  str2, n % 10, str3);
+		printf("%s%d%s%d%s\n", str1, n, str2, n % 10, str3);
 	}
 	else if (n % 10 == 0)
 	{
