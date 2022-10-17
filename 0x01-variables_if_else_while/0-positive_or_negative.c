@@ -7,6 +7,7 @@
  *
  * Description: C-project
  *
+ * Return: Always true if it is 0
  */
 
 int main(void)
@@ -16,10 +17,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
- 	if (n > 0)
+	if (n > 0)
 	{
 		printf("%d is %s\n", n, "positive");
-	
+
 	}
 	else if (n == 0)
 	{
@@ -29,7 +30,6 @@ int main(void)
 	{
 		printf("%d is %s\n", n, "negative");
 	}
-
 	return (0);
 
 }
