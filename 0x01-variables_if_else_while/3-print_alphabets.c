@@ -2,7 +2,8 @@
 /**
  * main - Alx_SE
  * Descrption: alphabets`
- * return: always true when zero
+ *
+ * Return: 'Always true when return is 0'
  */
 
 int main(void)
@@ -14,11 +15,10 @@ int main(void)
 	{
 		putchar(i);
 	}
-
 	for (j = 'A'; j <= 'Z'; j++)
 	{
 		putchar(j);
 	}
 	putchar('\n');
-	return (0); 
+	return (0);
 }
