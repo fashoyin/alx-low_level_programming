@@ -1,20 +1,21 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - main
  *
- * Descrption
+ * Descrption: alphabets
  *
- * return
+ * return: always ttrue when zero
  */
 
 int main(void)
 {
 	char i;
+	char j;
 
-	for (i = 'a', i <= z, i++)
+	for (i = 'a'; i <= z; i++)
 	{
-		for(j = 'A', j <= 'Z', j++)
+		for(j = 'A'; j <= 'Z'; j++)
 		{
 			putchar(i,j);
 		
