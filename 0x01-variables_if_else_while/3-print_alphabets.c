@@ -1,21 +1,20 @@
 #include <stdio.h>
-
 /**
- * main - main
- *
- * Descrption: alphabets
- *
- * return: always ttrue when zero
+ * main - Alx_SE
+ * Descrption: alphabets`
+ * return: always true when zero
  */
+
 int main(void)
 {
 	char i;
 	char j;
-	
+
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		putchar(i);
 	}
+
 	for (j = 'A'; j <= 'Z'; j++)
 	{
 		putchar(j);
