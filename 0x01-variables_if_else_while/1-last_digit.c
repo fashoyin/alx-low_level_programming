@@ -15,7 +15,7 @@ int main(void)
 	int n;
 	char digit[] = "Last digit of";
 
-        srand(time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("%s %d is %d and is ", digit, n, n % 10);
 
@@ -32,5 +32,4 @@ int main(void)
 		printf("less than 6 and not 0\n");
 	}
 	return (0);
-
 }
