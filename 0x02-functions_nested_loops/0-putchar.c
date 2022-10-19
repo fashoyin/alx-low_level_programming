@@ -11,6 +11,6 @@
 int main(void)
 {
 	char *name = "_putchar";
-	putchar(print(name);
+	putchar(print(name));
 	return (0);
 }
