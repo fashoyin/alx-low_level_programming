@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char name = "_putchar";
+	char* name = "_putchar";
 	putchar(print(name));
 	return (0);
 }
