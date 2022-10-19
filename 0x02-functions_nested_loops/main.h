@@ -1,1 +1,4 @@
-char print(char c);
+int print(char* c)
+{
+	return (c);
+}

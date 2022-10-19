@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - main
@@ -10,7 +9,6 @@
 
 int main(void)
 {
-	char* name = "_putchar";
-	putchar(print(name));
+	print("_putchar");
 	return (0);
 }
