@@ -1,1 +1,1 @@
-char *print(char c);
+char print(char c);
