@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Alx
+ *main - Alx
  *
- * description: diplays alphabets 10x
+ *description: Diplays alphabets 10x
  *
- * Return: success (1)
+ *Return: void
  */
 void print_alphabet_x10(void)
 {
