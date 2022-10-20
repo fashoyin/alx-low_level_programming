@@ -1,9 +1,7 @@
 #include "main.h"
-
 /**
- *main - Alx
+ *print_alphabet_x10 - Make alphabet x10 times
  *
- *description: Diplays alphabets 10x
  *
  *Return: void
  *
