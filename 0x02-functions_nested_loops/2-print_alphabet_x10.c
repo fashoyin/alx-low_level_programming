@@ -5,7 +5,7 @@
  * Description: diplays alphabets 10x
  *
  * Return: success (1)
-
+ */
 void print_alphabet_x10(void)
 {
 	int i = 0;
