@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *more_numbers - Print 10 times the numbers since 0 up to 14
+ *print_line - Print 10 times the numbers since 0 up to 14
  *
  *@n: The number of lines to draw
  *
