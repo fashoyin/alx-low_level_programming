@@ -2,6 +2,8 @@
 /**
  *more_numbers - Print 10 times the numbers since 0 up to 14
  *
+ *@n: The number of lines to draw
+ *
  *Return: 10 times of the numbers since 0 up to 14
  */
 
