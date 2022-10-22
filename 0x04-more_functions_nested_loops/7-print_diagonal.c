@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *print_diagonal - printing a diagonal lines
- *@n: The number of times to print diagonal lines
+ *print_diagonal - Draws a diagonal lines according parameter
  *
- *Return: line
+ *@n: The number of times to print diagonal lines
+ *Return: empty
  */
 
 void print_diagonal(int n)
