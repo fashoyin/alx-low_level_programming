@@ -21,6 +21,10 @@ int main(void)
 		{
 			printf("Buzz");
 		}
+		else if (x % 5 == 0)
+		{
+			printf("Buzz");
+		}
 		else
 		{
 			printf("%d", x);
