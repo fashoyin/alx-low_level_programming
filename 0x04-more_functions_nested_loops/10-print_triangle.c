@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  *print_triangle - Prints a triangle of squares according parameter
@@ -27,11 +27,9 @@ void print_triangle(int size)
 			}
 			for (z = 0; z <= x; z++)
 			{
-				_putchar(35);										
+				_putchar(35);
 			}
-			_putchar('\n');
-																	
+			_putchar('\n');														
 		}
 	}
-
 }
