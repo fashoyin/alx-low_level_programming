@@ -47,7 +47,7 @@ int largest_number(int a, int b, int c)
 		largest = c;
 	}
 	else
-		continue;
+		break;
 	return (largest);
 }
 
