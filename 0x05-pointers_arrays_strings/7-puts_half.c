@@ -4,7 +4,6 @@
  * @str:string being printed
  * Return: void
  */
- 
 void puts_half(char *str)
 {
 	int i = 0;
@@ -18,6 +17,7 @@ void puts_half(char *str)
 	if (i % 2 == 1)
 	{
 		n = (i - 1) / 2;
+		n += 1;
 	}
 	else
 	{
