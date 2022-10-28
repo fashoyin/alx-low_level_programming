@@ -21,6 +21,6 @@ void reverse_array(int *a, int n)
 		j = a[k];
 		a[k] = *x;
 		*x = j;
-		p--;
+		x--;
 	}
 }
