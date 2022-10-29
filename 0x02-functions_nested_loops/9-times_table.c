@@ -2,7 +2,7 @@
 /**
  * time_table - prints 9 times table
  *
- * Return: Always 0  
+ * Return: empty  
  */
 void times_table(void)
 {
@@ -11,12 +11,12 @@ void times_table(void)
 
 	int j;
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (j = 0; j < 9; j++)
+		for (j = 0; j <= 9; j++)
 		{
 			n =i * j;
-			_putchar(n);
+			_putchar(n + '0');
 		}
 	}
 }
