@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * time_table - prints 9 times table
- *
+ * time_table - prints 9 times tabl
  * Return: empty  
  */
 void times_table(void)
@@ -30,6 +29,7 @@ void times_table(void)
 				if (j != 0)
 				{
 					_putchar(',');
+					_putchar(' ');
 					_putchar(' ');
 				}
 				_putchar(n + '0');
