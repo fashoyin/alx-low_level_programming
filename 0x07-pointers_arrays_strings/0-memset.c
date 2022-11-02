@@ -1,7 +1,6 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- *
  * _memset - fills memory with a constant byte
  * @s: pointer to memory area 
  * @n: the number of bytes to fill
